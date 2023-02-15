@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reactweb/static/css/main.87f744d5.css",
+    "main.js": "/reactweb/static/js/main.bacba3a5.js",
+    "static/media/about.jpg": "/reactweb/static/media/about.ec8a4a9feb1614ebff19.jpg",
+    "static/media/marketing.jpeg": "/reactweb/static/media/marketing.c745cfb5cd0b2ce38516.jpeg",
+    "static/media/19362653.jpg": "/reactweb/static/media/19362653.0a4893421f4eb80a395c.jpg",
+    "static/media/digital.jpeg": "/reactweb/static/media/digital.05579b4d8427cc4235ac.jpeg",
+    "static/media/web.jpg": "/reactweb/static/media/web.cbee62aa89edcfdf25c3.jpg",
+    "static/media/App.png": "/reactweb/static/media/App.496eecf3fc956f0a3e54.png",
+    "static/media/software.jpg": "/reactweb/static/media/software.c017c52232ebd0c5748a.jpg",
+    "static/media/android.jpg": "/reactweb/static/media/android.9435742e1dfeb751164d.jpg",
+    "index.html": "/reactweb/index.html",
+    "main.87f744d5.css.map": "/reactweb/static/css/main.87f744d5.css.map",
+    "main.bacba3a5.js.map": "/reactweb/static/js/main.bacba3a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87f744d5.css",
+    "static/js/main.bacba3a5.js"
+  ]
+}
