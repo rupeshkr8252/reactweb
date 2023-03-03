@@ -7,10 +7,10 @@ import Common from "./Common";
 const Home = () => {
     return(
         <>
-    <Common name="Grow your Business with" 
+    <Common name="You can Enjoy Our Website" 
     imgsrc={web}
     visit="/service"
-    btname="Get Started"/>
+    btname="Event"/>
     </>
     )
 }

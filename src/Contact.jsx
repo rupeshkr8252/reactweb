@@ -12,18 +12,37 @@ const Contact = () => {
         const {name,value} = event.target;
         
         setData((preVal) => {
-            return {
-                ...preVal,
-                [name] :value,
+            return {...preVal,[name] :value,
             };
         });
     };
 
-    const formSubmit =(e) =>{
+    // const formSubmit =(e) =>{
+    //     e.preventDefault();
+    //     alert(
+    //         `My name is ${data.fname}. My mobile number is ${data.phone}. and Email Id is ${data.email}, Here is my feedback ${data.msg}`);
+    // };
+    const postData = async(e) =>{
         e.preventDefault();
-        alert(
-            `My name is ${data.fname}. My mobile number is ${data.phone}. and Email Id is ${data.email}, Here is my feedback ${data.msg}`);
-    };
+
+      const res = await  fetch("https://rupeshwebform-default-rtdb.firebaseio.com/rupeshweb.json"
+      , {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({data: data}),
+      });
+      if(res) {
+        setData({
+          fname:'',
+          phone:'',
+          email:'',
+          msg:'',
+        });
+        alert("Thank you for contacting us");
+      }
+    }
   return (
     <>
       <div className="my-5">
@@ -32,7 +51,7 @@ const Contact = () => {
       <div className="container contact_div">
         <div className="row">
           <div className="col-md-6 col-10 mx-auto">
-            <form onSubmit={formSubmit}>
+            <form onSubmit={postData} method="POST">
             <div class="mb-3">
                 <label for="enteryourname" className="form-label">
                   Full Name
@@ -45,6 +64,7 @@ const Contact = () => {
                   name="fname"
                   value= {data.fname}
                   onChange={InputEvent}
+                  required
                 />
                 </div>
             <div class="mb-3">
@@ -59,7 +79,7 @@ const Contact = () => {
                   name="phone"
                   value= {data.phone}
                   onChange={InputEvent}
-
+                  required
                 />
                 </div>
 
@@ -75,6 +95,7 @@ const Contact = () => {
                   name="email"
                   value= {data.email}
                   onChange={InputEvent}
+                  required
                 />
                
               </div>
@@ -88,12 +109,13 @@ const Contact = () => {
             id="floatingTextarea2"
             name="msg"
             value= {data.msg}
-            onChange={InputEvent} ></textarea>
+            onChange={InputEvent}
+            required ></textarea>
   <label for="floatingTextarea2">Comments</label>
 </div>
               </div>
               
-              <button type="submit" class="btn btn-primary">
+              <button type="submit" class="btn btn-primary" onSubmit={postData}>
                 Submit
               </button>
             </form>
