@@ -12,7 +12,7 @@ const Sdata = [
     },
     {
         imgsrc:digital,
-        title:"Digital Networking"
+        title:"Digital Marketing"
     },
     {
         imgsrc:app,
