@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/rupeshkr8252/reactweb.git/static/css/main.87f744d5.css",
-    "main.js": "/rupeshkr8252/reactweb.git/static/js/main.7a99a90a.js",
-    "static/media/about.jpg": "/rupeshkr8252/reactweb.git/static/media/about.ec8a4a9feb1614ebff19.jpg",
-    "static/media/marketing.jpeg": "/rupeshkr8252/reactweb.git/static/media/marketing.c745cfb5cd0b2ce38516.jpeg",
-    "static/media/19362653.jpg": "/rupeshkr8252/reactweb.git/static/media/19362653.0a4893421f4eb80a395c.jpg",
-    "static/media/digital.jpeg": "/rupeshkr8252/reactweb.git/static/media/digital.05579b4d8427cc4235ac.jpeg",
-    "static/media/web.jpg": "/rupeshkr8252/reactweb.git/static/media/web.cbee62aa89edcfdf25c3.jpg",
-    "static/media/App.png": "/rupeshkr8252/reactweb.git/static/media/App.496eecf3fc956f0a3e54.png",
-    "static/media/software.jpg": "/rupeshkr8252/reactweb.git/static/media/software.c017c52232ebd0c5748a.jpg",
-    "static/media/android.jpg": "/rupeshkr8252/reactweb.git/static/media/android.9435742e1dfeb751164d.jpg",
-    "index.html": "/rupeshkr8252/reactweb.git/index.html",
-    "main.87f744d5.css.map": "/rupeshkr8252/reactweb.git/static/css/main.87f744d5.css.map",
-    "main.7a99a90a.js.map": "/rupeshkr8252/reactweb.git/static/js/main.7a99a90a.js.map"
+    "main.css": "/reactweb/static/css/main.87f744d5.css",
+    "main.js": "/reactweb/static/js/main.e7016e4e.js",
+    "static/media/about.jpg": "/reactweb/static/media/about.ec8a4a9feb1614ebff19.jpg",
+    "static/media/marketing.jpeg": "/reactweb/static/media/marketing.c745cfb5cd0b2ce38516.jpeg",
+    "static/media/19362653.jpg": "/reactweb/static/media/19362653.0a4893421f4eb80a395c.jpg",
+    "static/media/digital.jpeg": "/reactweb/static/media/digital.05579b4d8427cc4235ac.jpeg",
+    "static/media/web.jpg": "/reactweb/static/media/web.cbee62aa89edcfdf25c3.jpg",
+    "static/media/App.png": "/reactweb/static/media/App.496eecf3fc956f0a3e54.png",
+    "static/media/software.jpg": "/reactweb/static/media/software.c017c52232ebd0c5748a.jpg",
+    "static/media/android.jpg": "/reactweb/static/media/android.9435742e1dfeb751164d.jpg",
+    "index.html": "/reactweb/index.html",
+    "main.87f744d5.css.map": "/reactweb/static/css/main.87f744d5.css.map",
+    "main.e7016e4e.js.map": "/reactweb/static/js/main.e7016e4e.js.map"
   },
   "entrypoints": [
     "static/css/main.87f744d5.css",
-    "static/js/main.7a99a90a.js"
+    "static/js/main.e7016e4e.js"
   ]
 }
